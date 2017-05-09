@@ -30,8 +30,8 @@ LeadTrackThreshold 3.0
 
 DoDiscrByIsolation true
 DiscrByMinIsolation  ZERO
-/////DiscrByMaxIsolation  byTightCombinedIsolationDeltaBetaCorr3Hits
-DiscrByMaxIsolation  byVTightIsolationMVArun2v1DBnewDMwLT
+DiscrByMaxIsolation  byTightCombinedIsolationDeltaBetaCorr3Hits
+/////DiscrByMaxIsolation  byVTightIsolationMVArun2v1DBnewDMwLT
 DiscrByProngType 1hps
 
 DoDiscrAgainstElectron true
@@ -76,8 +76,8 @@ LeadTrackThreshold 5.0
 
 DoDiscrByIsolation true
 DiscrByMinIsolation ZERO
-////DiscrByMaxIsolation byTightCombinedIsolationDeltaBetaCorr3Hits
-DiscrByMaxIsolation  byVTightIsolationMVArun2v1DBnewDMwLT
+DiscrByMaxIsolation byTightCombinedIsolationDeltaBetaCorr3Hits
+/////DiscrByMaxIsolation  byVTightIsolationMVArun2v1DBnewDMwLT
 DiscrByProngType 1hps
 
 DoDiscrAgainstElectron 1
