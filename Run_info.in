@@ -2,11 +2,11 @@
                 Run
 ###################################
 
-CalculatePUSystematics false
+CalculatePUSystematics true
 DataHistos PUnewNormData.root
 MCHistos PUnewNormMC.root
 
-isData true
+isData false
 ApplyGenWeight false
 
 ///------Triggers-----///
