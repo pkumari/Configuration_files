@@ -1,30 +1,37 @@
 ####################################
                 Run
-###################################
+####################################
 
 CalculatePUSystematics true
-DataHistos PUnewNormData.root
-MCHistos PUnewNormMC.root
+DataHistos data_75bins_69200.root
+MCHistos MC_75bins.root
+//DataPUHistName NVertices_0
+//MCPUHistName NVertices_0
+
+DataPUHistName pileup
+MCPUHistName pileup
 
 isData false
-ApplyGenWeight false
+ApplyGenWeight  false
 
 ///------Triggers-----///
 
 Trigger1FirstRequirement HLT_DiPFJet40_DEta3p5_MJJ600_PFMETNoMu140_v
-Trigger1SecondRequirement HLT_PFMETNoMu120_PFMHTNoMu120_IDTight 
+Trigger1SecondRequirement HLT_PFMETNoMu120_PFMHTNoMu120_IDTight
 
 ///Trigger2FirstRequirement HLT_DoubleMediumIsoPFTau35_Trk1_eta2p1_Reg_v
-////Trigger2SecondRequirement HLT_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg_v
+///Trigger2SecondRequirement HLT_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg_v
 
 ///---Treat Muon as Neutrino---///
 
 TreatMuonsAsNeutrinos 0
+TreatMuonsAsTaus 0
 
 ///-----MET cuts------///
 
 DiscrByMet true
-MetCut 180 10000.0
+MetCut 180.0 10000.0
+
 DiscrByMHT false
 MhtCut 50.0
 DiscrByHT false

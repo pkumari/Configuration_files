@@ -113,7 +113,7 @@ DoDiscrByThisJet 1
 
 EtaCut 0.0 5.0
 PtCut 60.0
-ApplyLooseID 1       
+ApplyLooseID 1
 
 RemoveOverlapWithMuon1s 0
 RemoveOverlapWithMuon2s 0
@@ -134,8 +134,8 @@ Tau2MatchingDeltaR 0.3
     	     BJet
 ##################################
 
-EtaCut 0.0 2.5
-PtCut 20.0
+EtaCut 0.0 2.4
+PtCut 30.0
 
 RemoveOverlapWithMuon1s 0
 RemoveOverlapWithMuon2s 0
@@ -153,5 +153,8 @@ Tau1MatchingDeltaR 0.3
 Tau2MatchingDeltaR 0.3
 
 ApplyJetBTagging 1
-JetBTaggingCut 0.848
-MatchBToGen   0
+JetBTaggingCut  0.8484
+MatchBToGen     0
+UseBtagSF       1
+
+

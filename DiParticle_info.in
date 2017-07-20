@@ -2,7 +2,7 @@
               DiTau
 #######################################
 
-DiscrByDeltaR  false
+DiscrByDeltaR  true
 DeltaRCut      0.3
 
 DiscrByOSLSType  None	#### OS or LS
@@ -84,10 +84,10 @@ DeltaPtCutValue 	   30.0   1000.0
                DiJet
 #####################################
 
-DiscrByDeltaR True
+DiscrByDeltaR true
 DeltaRCut 0.3
 
-DiscrByDeltaEta    true
+DiscrByDeltaEta      true
 DeltaEtaCut         3.8  9999.0
 DiscrByDeltaPhi      false
 DeltaPhiCut         0    9999.0
