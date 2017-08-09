@@ -24,11 +24,11 @@ MotherID 23.0
 //----RECO CUTS----//
 
 EtaCut 2.1
-PtCut 10.0 9999.9
+PtCut 30.0 9999.9
 
-DoDiscrByTightID 0
+DoDiscrByTightID 1
 DoDiscrBySoftID 0
-DoDiscrByMediumID 1
+DoDiscrByMediumID 0
 DoDiscrByIsolation 0
 IsoSumPtCutValue 0.0 0.25
 
@@ -40,7 +40,7 @@ DiscrByMetDphi 0
 MetDphiCut 1.0 3.15
 
 DiscrByMetMt 0
-MetMtCut 0. 100.
+MetMtCut 0. 999.9
 
 ////////////////////////////////
              Muon2
@@ -49,11 +49,11 @@ MetMtCut 0. 100.
 //----RECO CUTS----//
 
 EtaCut 2.1
-PtCut 20.0 9999.9
+PtCut 30.0 9999.9
 
-DoDiscrByTightID 0
+DoDiscrByTightID 1
 DoDiscrBySoftID 0
-DoDiscrByMediumID 1
+DoDiscrByMediumID 0
 
 DoDiscrByIsolation 0
 IsoSumPtCutValue 0.0 0.25
@@ -66,4 +66,4 @@ DiscrByMetDphi 0
 MetDphiCut 1.30 3.15
 
 DiscrByMetMt 0
-MetMtCut 10. 100.
+MetMtCut 0. 999.9
